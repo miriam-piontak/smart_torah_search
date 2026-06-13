@@ -1,0 +1,86 @@
+.history-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    direction: rtl;
+}
+
+.history-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 2.2rem;
+}
+
+.table-wrapper {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: right;
+}
+
+.history-table th {
+    background-color: #34495e;
+    color: white;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.history-table td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    color: #444;
+}
+
+.history-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+.type-badge {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.type-badge.exact {
+    background-color: #ebdef0;
+    color: #8e44ad;
+}
+
+.type-badge.regular {
+    background-color: #d6eaf8;
+    color: #2980b9;
+}
+
+.word-cell {
+    font-weight: bold;
+    color: #e67e22;
+}
+
+.date-cell {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.no-history {
+    text-align: center;
+    padding: 50px;
+    background: white;
+    border-radius: 12px;
+    color: #7f8c8d;
+}
+
+.loader {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1.2rem;
+    color: #3498db;
+}

@@ -1,0 +1,125 @@
+.sgula-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    direction: rtl;
+    background-color: #fdfbf7;
+    min-height: 100vh;
+}
+
+/* כותרת והסבר */
+.sgula-header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 15px;
+    background: white;
+    border: 1px solid #e5d3b3;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+}
+
+.sgula-header h1 {
+    font-size: 3rem;
+    color: #8e6e46;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.sgula-header .subtitle {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #5d4037;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* שורת חיפוש */
+.sgula-search-area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.sgula-form {
+    display: flex;
+    gap: 15px;
+    background: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px rgba(142, 110, 70, 0.1);
+    border: 1px solid #e5d3b3;
+}
+
+.sgula-input {
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    outline: none;
+    width: 250px;
+}
+
+.sgula-submit-btn {
+    background-color: #8e6e46;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sgula-submit-btn:hover { background-color: #725633; }
+
+/* גריד תוצאות וכרטיסיות */
+.sgula-results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 30px;
+}
+
+.sgula-result-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    border: 1px solid #e5d3b3;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+    text-align: center;
+}
+
+.pasuk-text {
+    font-size: 1.7rem;
+    line-height: 2;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* הזרחה: צבע בלבד, בדיוק כמו הטקסט */
+.highlight-letter {
+    color: #d35400; /* כתום עמוק */
+}
+
+.pasuk-source {
+    font-size: 0.95rem;
+    color: #8e6e46;
+    font-weight: bold;
+    border-top: 1px solid #f2f2f2;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* קישוטים */
+.card-decor {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    opacity: 0.2;
+}
+.card-decor.top { top: 15px; right: 15px; border-top: 3px solid #8e6e46; border-right: 3px solid #8e6e46; }
+.card-decor.bottom { bottom: 15px; left: 15px; border-bottom: 3px solid #8e6e46; border-left: 3px solid #8e6e46; }
+
+.loader { text-align: center; font-weight: bold; color: #8e6e46; }
